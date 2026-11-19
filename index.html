@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#222222">
+  <title>全國電子｜家電汰換服務原型</title>
+  <style>
+    :root{font-family:Inter,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;color:#222;background:#f5f5f5;--pink:#e4007f;--navy:#222;--muted:#667685;--line:#dadada}
+    *{box-sizing:border-box}body{margin:0;line-height:1.55}.shell{width:min(1040px,calc(100% - 36px));margin:auto}.topbar{background:var(--navy);color:#fff}.topbar-inner{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;font-weight:850}.mark{display:grid;place-items:center;width:38px;height:38px;border-radius:11px;background:var(--pink);color:white;font-size:23px}.brand small{display:block;color:#c6cdd4;font-size:12px;font-weight:600;letter-spacing:.12em}.preview-tag{border:1px solid #ffffff40;border-radius:99px;padding:6px 10px;color:#ffd7e9;font-size:12px;font-weight:800}
+    main{padding:46px 0 52px}.hero{padding:0 0 26px}.eyebrow{color:#a0005a;font-size:13px;font-weight:900;letter-spacing:.14em}.hero h1{margin:7px 0 10px;color:var(--navy);font-size:clamp(30px,5vw,44px);line-height:1.2;letter-spacing:-.04em}.hero p{max-width:690px;margin:0;color:#5f6f7e;font-size:16px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{display:flex;flex-direction:column;min-height:255px;padding:23px;border:1px solid var(--line);border-radius:17px;background:white;box-shadow:0 10px 30px #2222220b}.card-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;background:#fff0f7;color:var(--pink);font-size:22px;font-weight:900}.card h2{margin:16px 0 5px;color:var(--navy);font-size:21px}.card p{margin:0 0 20px;color:var(--muted);font-size:14px}.card a{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;padding:12px 14px;border-radius:10px;background:var(--pink);color:white;text-decoration:none;font-weight:850}.card a:hover{background:#b00062}.card a span{font-size:20px;line-height:1}.notice{margin-top:18px;padding:12px 14px;border:1px solid #f2b7d3;border-radius:11px;background:#fff8fb;color:#72526a;font-size:13px}.footer{padding:18px 0;border-top:1px solid var(--line);color:#85919c;text-align:center;font-size:12px}
+    @media(max-width:620px){.shell{width:calc(100% - 24px)}.topbar-inner{height:60px}.brand{font-size:15px}.mark{width:34px;height:34px}.preview-tag{font-size:11px;padding:5px 8px}main{padding:32px 0 38px}.cards{grid-template-columns:1fr;gap:11px}.card{min-height:225px;padding:19px}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="shell topbar-inner"><div class="brand"><span class="mark">全</span><span>全國電子<small>家電汰換服務</small></span></div><span class="preview-tag">網站原型預覽</span></div></header>
+  <main class="shell">
+    <section class="hero"><div class="eyebrow">ELIFE · APPLIANCE TAKE-BACK</div><h1>家電汰換服務<br>原型預覽</h1><p>選擇要查看的操作頁面。顧客端可試算舊機殘值與服務費；門市端可查看回收估值、季度業績圖表與模擬營運建議。</p></section>
+    <section class="cards" aria-label="原型頁面">
+      <article class="card"><span class="card-icon" aria-hidden="true">↗</span><h2>顧客端｜汰舊換新費用試算</h2><p>填寫舊機品牌、製造年份、外觀與使用狀態，再加入清單查看殘值與費用估算。</p><a href="汰舊換新成本試算.html">開啟顧客端試算 <span aria-hidden="true">→</span></a></article>
+      <article class="card"><span class="card-icon" aria-hidden="true">▥</span><h2>門市端｜回收估值與季度業績</h2><p>查看回收估值流程、處理廠重量覆核，以及季度回收台數、重量和淨殘值圖表。</p><a href="門市端回收估值.html">開啟門市端頁面 <span aria-hidden="true">→</span></a></article>
+    </section>
+    <p class="notice">此為前端原型，業績圖表、AI 建議及部分金額均為模擬資料；不會提交申請或撥款。</p>
+  </main>
+  <footer class="footer"><div class="shell">全國電子家電汰換服務｜網站原型</div></footer>
+</body>
+</html>
